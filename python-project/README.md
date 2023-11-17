@@ -72,3 +72,7 @@ git commit -m'change dependency XY' requirements.txt
 Yes, even though [requirements.txt](requirements.txt) is generated, it is part of your repository and must be commited.
 
 Do you know why this is necessary?
+
+# Design Decisions
+
+TODO: Discuss advanced topics such as Python Packaging.
