@@ -17,8 +17,8 @@ The job is largely remote, see below. The range for compensation is 900€ to 12
 * You know what energy and power is.
 * You have an understanding of the wholesale markets for electrical power.
   These are 
-** auction based (once a day) [european power auction](https://www.epexspot.com/en/tradingproducts#day-ahead-trading) and 
-** limit order book based (continuous 24/7) [limit orderbook trading](https://en.wikipedia.org/wiki/Order_(exchange)#Limit_order)
+  * auction based (once a day) [european power auction](https://www.epexspot.com/en/tradingproducts#day-ahead-trading) and 
+  * limit order book based (continuous 24/7) [limit orderbook trading](https://en.wikipedia.org/wiki/Order_(exchange)#Limit_order)
 * You are willing to understand our trading strategies.
 * You have a firm understanding how calendar time is modelled in Rust (time offset, time zone).
 * You work with git, issues, and pull requests.
