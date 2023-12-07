@@ -1,4 +1,4 @@
-Best Practise to setup a simple Python application project.
+Best Practise to setup a simple Python `3.11` application project.
 
 If you want a library project which produces a Python package, then this is not for you.
 
@@ -48,7 +48,7 @@ python -m package_b
 
 # Setup Dependency Management
 
-This is for the requirements manager. Your goal is to provide [reproducable builds](https://reproducible-builds.org).
+This is for the dependencies/requirements manager. Your goal is to provide [reproducable builds](https://reproducible-builds.org).
 
 You have to declare the top-level dependencies of your application in [requirements.in](requirements.in).
 You *do not* declare all transitive dependencies in [requirements.txt](requirements.txt).
@@ -72,6 +72,14 @@ git commit -m'change dependency XY' requirements.txt
 Yes, even though [requirements.txt](requirements.txt) is generated, it is part of your repository and must be commited.
 
 Do you know why this is necessary?
+
+# Maintenance Tasks
+
+From time to time you may update your tools with
+
+````
+python -m pip install -U pip pip-tools
+````
 
 # Design Decisions
 
